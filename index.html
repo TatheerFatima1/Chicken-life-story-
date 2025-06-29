@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+ img{
+   width:100%;
+ }
+ .main{
+   display: flex;
+   justify-content: center;
+   align-items: center 
+   background: red;
+   width:100%;
+ }
+ button{
+   margin: 1%;
+   border-radius: 30px;
+   border:5px solid black;
+   color: brown;
+   background: lightgoldenrodyellow;
+   padding: 7px 12px;
+   font-weight: 700;
+   font-size: 3rem;
+ }
+ #text{
+  margin-left:24%;
+  text-align: center;
+   width: 500px;
+   line-height: 15px;
+   display: inline-block;
+ }
+ h1{
+   color: red;
+   font-size: 3rem;
+ }
+ p{
+   font-weight: 500;
+   font-size: 1.5rem;
+ }
+</style>
+
+<body>
+ 
+  <div id="text">
+   <h1>CHICKEN LIFE STORY</h1>
+   
+  <p>click next button to watch story</p> 
+  </div>
+  <img id="image"  src="" alt="">
+  
+<div class="main">
+  
+<br>
+<br>
+<button onclick="nextImage()">Next</button>
+<button onclick="reset()">Reset</button>
+</div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
